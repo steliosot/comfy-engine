@@ -1,0 +1,14 @@
+name: generate_sd15_lora
+description: Generate an SD15 image with a LoRA style.
+
+inputs:
+  prompt:
+    type: string
+  lora:
+    type: string
+  strength:
+    type: float
+    default: 1.0
+
+outputs:
+  image: string

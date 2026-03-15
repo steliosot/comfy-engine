@@ -1,0 +1,21 @@
+name: generate_sd15_image
+description: Generate an image using Stable Diffusion 1.5.
+
+inputs:
+  prompt:
+    type: string
+  negative_prompt:
+    type: string
+    default: "watermark, text"
+  width:
+    type: integer
+    default: 512
+  height:
+    type: integer
+    default: 512
+  steps:
+    type: integer
+    default: 35
+
+outputs:
+  image: string

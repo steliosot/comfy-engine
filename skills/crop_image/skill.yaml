@@ -1,0 +1,28 @@
+name: crop_image
+
+description: Crop a region from an image using ComfyUI.
+
+inputs:
+  image:
+    type: string
+    description: Input image filename (must exist in ComfyUI input folder)
+
+  x:
+    type: integer
+    default: 0
+
+  y:
+    type: integer
+    default: 0
+
+  width:
+    type: integer
+    default: 256
+
+  height:
+    type: integer
+    default: 256
+
+outputs:
+  image:
+    type: string

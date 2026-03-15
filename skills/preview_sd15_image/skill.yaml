@@ -1,0 +1,12 @@
+name: preview_sd15_image
+description: Generate an SD15 image and preview it in ComfyUI.
+
+inputs:
+  prompt:
+    type: string
+  negative_prompt:
+    type: string
+    default: "low quality, blurry"
+
+outputs:
+  preview: string
