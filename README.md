@@ -26,7 +26,7 @@ scheduler: normal
 These settings work well in my setup.  
 Depending on your environment, you might need to experiment with other combinations.
 
-Recommended:
+Recommended `cfg`:
 
 ```
 20
