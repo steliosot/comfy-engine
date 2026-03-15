@@ -2,7 +2,7 @@
 
 ## 1. Run the ComfyUI Workflows
 
-First make sure you run the workflows included in the `comfyUI_workflows` folder.
+First make sure you run the workflows included in the `comfyUI_workflows` folder inside the ComfyUI to test that everything works fine and models are installed.
 
 Each workflow contains notes about:
 
